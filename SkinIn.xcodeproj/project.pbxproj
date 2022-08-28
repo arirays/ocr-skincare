@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		021A683228ADAD3900E12E3E /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021A683128ADAD3900E12E3E /* ScannerView.swift */; };
-		021A683428ADADB900E12E3E /* ScanIngView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021A683328ADADB900E12E3E /* ScanIngView.swift */; };
 		024400D7277549DC002E76E0 /* SkinInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024400D6277549DC002E76E0 /* SkinInApp.swift */; };
 		024400D9277549DC002E76E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024400D8277549DC002E76E0 /* ContentView.swift */; };
 		024400DB277549DD002E76E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 024400DA277549DD002E76E0 /* Assets.xcassets */; };
 		024400DE277549DD002E76E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 024400DD277549DD002E76E0 /* Preview Assets.xcassets */; };
 		024400E5278E4345002E76E0 /* SkinHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024400E4278E4345002E76E0 /* SkinHomeView.swift */; };
-		024400E7278E4366002E76E0 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024400E6278E4366002E76E0 /* ScanView.swift */; };
 		024400E9278E43A8002E76E0 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024400E8278E43A8002E76E0 /* AboutView.swift */; };
+		0269A0C128BB003100B354A6 /* IngredientsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0269A0C028BB003100B354A6 /* IngredientsData.swift */; };
+		0269A0C328BB00AD00B354A6 /* IngredientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0269A0C228BB00AD00B354A6 /* IngredientDetailView.swift */; };
 		026EBC60289636040060F604 /* IngredientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026EBC5F289636040060F604 /* IngredientsListView.swift */; };
 		026EBC6228AC65CA0060F604 /* ScanResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026EBC6128AC65CA0060F604 /* ScanResults.swift */; };
 		026EBC6428AC7BEF0060F604 /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026EBC6328AC7BEF0060F604 /* TextRecognition.swift */; };
@@ -25,15 +25,15 @@
 /* Begin PBXFileReference section */
 		021A683028ADA7FA00E12E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		021A683128ADAD3900E12E3E /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
-		021A683328ADADB900E12E3E /* ScanIngView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanIngView.swift; sourceTree = "<group>"; };
 		024400D3277549DC002E76E0 /* SkinIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		024400D6277549DC002E76E0 /* SkinInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinInApp.swift; sourceTree = "<group>"; };
 		024400D8277549DC002E76E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		024400DA277549DD002E76E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		024400DD277549DD002E76E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		024400E4278E4345002E76E0 /* SkinHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinHomeView.swift; sourceTree = "<group>"; };
-		024400E6278E4366002E76E0 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		024400E8278E43A8002E76E0 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		0269A0C028BB003100B354A6 /* IngredientsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsData.swift; sourceTree = "<group>"; };
+		0269A0C228BB00AD00B354A6 /* IngredientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDetailView.swift; sourceTree = "<group>"; };
 		026EBC5F289636040060F604 /* IngredientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsListView.swift; sourceTree = "<group>"; };
 		026EBC6128AC65CA0060F604 /* ScanResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResults.swift; sourceTree = "<group>"; };
 		026EBC6328AC7BEF0060F604 /* TextRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognition.swift; sourceTree = "<group>"; };
@@ -77,13 +77,13 @@
 				024400DC277549DD002E76E0 /* Preview Content */,
 				024400E4278E4345002E76E0 /* SkinHomeView.swift */,
 				021A683128ADAD3900E12E3E /* ScannerView.swift */,
+				026EBC6528ACB4830060F604 /* ScanData.swift */,
 				026EBC6328AC7BEF0060F604 /* TextRecognition.swift */,
+				026EBC5F289636040060F604 /* IngredientsListView.swift */,
+				0269A0C028BB003100B354A6 /* IngredientsData.swift */,
+				0269A0C228BB00AD00B354A6 /* IngredientDetailView.swift */,
 				026EBC6128AC65CA0060F604 /* ScanResults.swift */,
 				024400E8278E43A8002E76E0 /* AboutView.swift */,
-				026EBC5F289636040060F604 /* IngredientsListView.swift */,
-				021A683328ADADB900E12E3E /* ScanIngView.swift */,
-				026EBC6528ACB4830060F604 /* ScanData.swift */,
-				024400E6278E4366002E76E0 /* ScanView.swift */,
 			);
 			path = SkinIn;
 			sourceTree = "<group>";
@@ -167,14 +167,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				026EBC6628ACB4830060F604 /* ScanData.swift in Sources */,
-				024400E7278E4366002E76E0 /* ScanView.swift in Sources */,
-				021A683428ADADB900E12E3E /* ScanIngView.swift in Sources */,
 				026EBC60289636040060F604 /* IngredientsListView.swift in Sources */,
 				024400D9277549DC002E76E0 /* ContentView.swift in Sources */,
 				026EBC6228AC65CA0060F604 /* ScanResults.swift in Sources */,
 				024400D7277549DC002E76E0 /* SkinInApp.swift in Sources */,
 				024400E5278E4345002E76E0 /* SkinHomeView.swift in Sources */,
 				026EBC6428AC7BEF0060F604 /* TextRecognition.swift in Sources */,
+				0269A0C328BB00AD00B354A6 /* IngredientDetailView.swift in Sources */,
+				0269A0C128BB003100B354A6 /* IngredientsData.swift in Sources */,
 				024400E9278E43A8002E76E0 /* AboutView.swift in Sources */,
 				021A683228ADAD3900E12E3E /* ScannerView.swift in Sources */,
 			);
