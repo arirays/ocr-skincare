@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct SkinInApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBar()
         }
     }
 }

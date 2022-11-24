@@ -11,9 +11,9 @@ import SwiftUI
 
 struct ScanData: Identifiable {
     var id = UUID()
-    let content: String
+    let content: [String]
     
-    init(content: String) {
+    init(content: [String]) {
         self.content = content
     }
 }

@@ -7,33 +7,30 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TabBar: View {
     var body: some View {
         
         TabView {
             SkinHomeView()
                 .tabItem {
-                    Image(systemName: "house")
-                    Text("Home")
+                    Label("Home", systemImage: "house")
                 }
             IngredientsListView()
                 .tabItem {
-                    Image(systemName: "list.bullet.rectangle.portrait")
-                    Text("Ingredients")
+                    Label("Ingredients", systemImage: "list.bullet.rectangle.portrait")
                 }
             AboutView()
                 .tabItem {
-                    Image(systemName: "info.circle")
-                    Text("About")
+                    Label("About", systemImage: "info.circle")
                 }
         }
-        .accentColor(Color("brandPrimary"))
+        .accentColor(Color.black)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TabBar()
     }
 }
 

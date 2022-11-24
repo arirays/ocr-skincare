@@ -47,12 +47,11 @@ struct ScannerView: UIViewControllerRepresentable {
     
     typealias UIViewControllerType = VNDocumentCameraViewController
     
-    // Handler
     private let completionHandler: ([String]?) -> Void
     
     init(completion: @escaping ([String]?) -> Void) {
         self.completionHandler = completion
     }
+
     
-    //Request
 }
