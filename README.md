@@ -1,2 +1,3 @@
-# ocr-skincare
-text recognition to read skincare ingredients
+# SkinIn (ocr-skincare)
+* An optical character recognition app using Vision and VisionKit to process images and identify text, read and match skincare ingredients. 
+* Users learn about skincare and which active ingredients are present in a product.
