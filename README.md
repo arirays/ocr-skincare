@@ -15,4 +15,4 @@
 
 ## Motivation
 * Learn how to build solutions with Apple Vision and VisionKit frameworks
-* Learn SwiftUI sheet view. How to present new views over existing one and dismiss it!
+* Learn SwiftUI sheet view. How to present new views over existing one and dismiss it
