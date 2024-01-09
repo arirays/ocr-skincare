@@ -31,7 +31,7 @@ struct SkinHomeView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 350, height: 350)
-                    Text("Check out active ingredients in your skincare routine. \n Simply scan ingredients on the package!")
+                    Text("Check out active ingredients \nin your skincare routine. \n Simply scan ingredients on the package!")
                         .font(.headline)
                         .fontWeight(.semibold)
                         .multilineTextAlignment(.center)
