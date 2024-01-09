@@ -10,7 +10,8 @@
 * VisionKit
   
 ## Demo
-![GMP_U2F2ZUdNNTE= 2](https://github.com/arirays/ocr-skincare/assets/51388551/87f274ef-6c97-47ff-bd0e-4ee85db90b3e)
+
+![Simulator Screen Recording - iPhone 15 Pro Max - 2024-01-09 at 10 20 26](https://github.com/arirays/ocr-skincare/assets/51388551/057aca3c-9bc1-4c29-91f4-d3e1e436cc27) ![GMP_U2F2ZUdNNTE= 2](https://github.com/arirays/ocr-skincare/assets/51388551/87f274ef-6c97-47ff-bd0e-4ee85db90b3e)
 
 
 ## Motivation
